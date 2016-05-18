@@ -6,7 +6,7 @@ This code was the end product result from one of my course projects. In this pro
 
 # Algorithms
 
-From a very high level perspective, the computer vision algorithms used were gray scaling Sobel edge detection, and line Hough transformations. A Kalman filter was also used to smooth out and help follow along a road path for a given time. 
+From a very high level perspective, the computer vision algorithms used were gray scale decomposition, Sobel edge detection, and line Hough transformations. A Kalman filter was also used to smooth out and help follow along a road path for a given time. 
 
 ### Kalman Filtering
 
@@ -27,7 +27,7 @@ Below are the various images captured intermittently when my computer vision and
 ### Inital Video Image Input
 ![Initial Video Image Input](Images/Detailed Data/InitialVideoImage.png)
 
-###[Gray Scaled Video Image
+###Gray Scaled Video Image
 ![Gray Scaled Video Image](Images/Detailed Data/GrayScaleVideoImage.png)
 
 ###Edge Detection
