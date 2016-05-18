@@ -2,11 +2,11 @@
 
 # Introduction
 
-This code was a result from one of my courses project requirements. I wanted to implement a real case use from my Algorithms for Parameter & State Estimation course. In this project, I implemented a variety of computer vision and estimation algorithms to detect lanes on the road. The video footage used as the primary test case came from my Subaru's dashcam. As a result, I was using a genuine video file and was able to  
+This code was the end product result from one of my course projects. In this project, I implemented a some computer vision and estimation algorithms to detect lanes on the road. The video footage used as the primary test case came from my Subaru's dashcam. The day/night time dynamics my camera picked up posed new problems to an already difficult problem in computer vision technology.   
 
 # Algorithms
 
-From a very high level perspective, the computer vision algorithms used were gray scaling Sobel edge detection, and line Hough transformations. A Kalman filter was also used to smooth out and help follow along a road for a given time. 
+From a very high level perspective, the computer vision algorithms used were gray scaling Sobel edge detection, and line Hough transformations. A Kalman filter was also used to smooth out and help follow along a road path for a given time. 
 
 ### Kalman Filtering
 
@@ -24,18 +24,25 @@ The filter has very desirable characteristics as it is very light on memory so i
 
 Below are the various images captured intermittently when my computer vision and estimation algorithms were applied
 
+### Inital Video Image Input
 ![Initial Video Image Input](Images/Detailed Data/InitialVideoImage.png)
 
+###[Gray Scaled Video Image
 ![Gray Scaled Video Image](Images/Detailed Data/GrayScaleVideoImage.png)
 
+###Edge Detection
 ![Edge Detection](Images/Detailed Data/PureEdgeDetectionImage.png)
 
+###Region of Interest
 ![Region of Interest](Images/Detailed Data/EdgeDetectionImage.png)
 
+###Output Result
 ![Output Result](Images/Detailed Data/GoodKalmanFilterImage.png)
 
 # Kalman Filter Data
 
+### Before Kalman Filter was applied
 ![Before Kalman Filter Dataset](Images/Detailed Data/BeforeKalman.png)
 
+### After Kalman Filter was applied
 ![After Kalman Filter Dataset](Images/Detailed Data/AfterKalman.png)
